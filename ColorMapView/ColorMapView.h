@@ -30,4 +30,8 @@ IB_DESIGNABLE
 
 - (UIColor *)getColorAtLocation:(CGPoint)location inView:(UIView *)inView;
 
+// primarily for testing purposes
++ (NSBundle *)bundle;
++ (NSString *)colorMapImagePath;
+
 @end

@@ -67,14 +67,22 @@ static UIImage *mapImageStatic = nil;
     return result;
 }
 
++ (NSBundle *)bundle
+{
+    return [NSBundle bundleWithIdentifier:@"com.adorkable.ColorMapView"];
+}
+
++ (NSString *)colorMapImagePath
+{
+    NSBundle *colorMapViewBundle = [self bundle];
+    return [colorMapViewBundle pathForResource:@"colorMap" ofType:@".png"];
+}
+
 + (UIImage *)mapImageStatic
 {
     if (mapImageStatic == nil)
     {
-        NSBundle *colorMapViewBundle = [NSBundle bundleWithIdentifier: @"com.adorkable.ColorMapView"];
-        NSString *colorMapImagePath = [colorMapViewBundle pathForResource:@"colorMap" ofType:@".png"];
-        mapImageStatic = [UIImage imageWithContentsOfFile:colorMapImagePath];
-        //[UIImage imageNamed:@"colorMap" inBundle:colorMapViewBundle compatibleWithTraitCollection:nil];
+        mapImageStatic = [UIImage imageWithContentsOfFile:[self colorMapImagePath] ];
     }
     
     return mapImageStatic;
