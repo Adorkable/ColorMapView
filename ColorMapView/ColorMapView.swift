@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class ColorMapView : UIImageView
+@IBDesignable public class ColorMapView : UIImageView
 {
     public override init()
     {
