@@ -59,8 +59,10 @@ static UIImage *mapImageStatic = nil;
     
     CGPoint normalizedLocation = CGPointMake(location.x / inView.frame.size.width,
                                              location.y / inView.frame.size.height);
-    CGPoint locationInImage = CGPointMake(normalizedLocation.x * self.image.size.width,
-                                          normalizedLocation.y * self.image.size.height);
+    CGPoint locationInImage = CGPointMake(
+                                          roundf(normalizedLocation.x * self.image.size.width),
+                                          roundf(normalizedLocation.y * self.image.size.height)
+                                          );
     
     result = [self.image colorAtLocation:locationInImage];
     
