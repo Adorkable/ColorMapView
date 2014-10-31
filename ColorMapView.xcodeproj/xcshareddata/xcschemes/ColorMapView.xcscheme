@@ -38,6 +38,16 @@
                ReferencedContainer = "container:ColorMapView.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3CF88F291A0379E000369E79"
+               BuildableName = "ColorMapViewSimulatorTests.xctest"
+               BlueprintName = "ColorMapViewSimulatorTests"
+               ReferencedContainer = "container:ColorMapView.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
