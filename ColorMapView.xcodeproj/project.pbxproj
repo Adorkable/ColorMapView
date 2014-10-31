@@ -19,6 +19,7 @@
 		3C8302C819B9FEEB0078558B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C8302C719B9FEEB0078558B /* Images.xcassets */; };
 		3C8302DD19BA025A0078558B /* ColorMapView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C83029219B9FD450078558B /* ColorMapView.framework */; };
 		3C8302DF19BA03AC0078558B /* ColorMapViewSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C8302DE19BA03AC0078558B /* ColorMapViewSpec.m */; };
+		3CF88F241A03536D00369E79 /* ColorMapView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C83029219B9FD450078558B /* ColorMapView.framework */; };
 		7517B09D3F524E4D97B13408 /* libPods-ColorMapViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D922CDA0F4BA4D6987FC85CB /* libPods-ColorMapViewTests.a */; };
 /* End PBXBuildFile section */
 
@@ -30,10 +31,17 @@
 			remoteGlobalIDString = 3C83029119B9FD450078558B;
 			remoteInfo = ColorMapView;
 		};
+		3CF88F221A034EF300369E79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C83028919B9FD450078558B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C83029119B9FD450078558B;
+			remoteInfo = ColorMapView;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3BEB385F8D784D359CE202F7 /* Pods-ColorMapViewTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorMapViewTests.xcconfig"; path = "Pods/Pods-ColorMapViewTests.xcconfig"; sourceTree = "<group>"; };
+		1D9B085103D8948ED47F4263 /* Pods-ColorMapViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorMapViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ColorMapViewTests/Pods-ColorMapViewTests.release.xcconfig"; sourceTree = "<group>"; };
 		3C83029219B9FD450078558B /* ColorMapView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ColorMapView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C83029619B9FD450078558B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C83029719B9FD450078558B /* ColorMapView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorMapView.h; sourceTree = "<group>"; };
@@ -53,6 +61,7 @@
 		3C8302C519B9FEEB0078558B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3C8302C719B9FEEB0078558B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3C8302DE19BA03AC0078558B /* ColorMapViewSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorMapViewSpec.m; sourceTree = "<group>"; };
+		5F273D85F107422540330531 /* Pods-ColorMapViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorMapViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ColorMapViewTests/Pods-ColorMapViewTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D922CDA0F4BA4D6987FC85CB /* libPods-ColorMapViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ColorMapViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -68,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CF88F241A03536D00369E79 /* ColorMapView.framework in Frameworks */,
 				7517B09D3F524E4D97B13408 /* libPods-ColorMapViewTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -83,6 +93,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11B262CAB258A49993C5B705 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F273D85F107422540330531 /* Pods-ColorMapViewTests.debug.xcconfig */,
+				1D9B085103D8948ED47F4263 /* Pods-ColorMapViewTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		3C83028819B9FD450078558B = {
 			isa = PBXGroup;
 			children = (
@@ -91,8 +110,8 @@
 				3C83029E19B9FD450078558B /* ColorMapViewTests */,
 				3C8302B919B9FEEB0078558B /* ColorMapExample */,
 				3C83029319B9FD450078558B /* Products */,
-				3BEB385F8D784D359CE202F7 /* Pods-ColorMapViewTests.xcconfig */,
 				D8A797A72B6F41BC99BEDABB /* Frameworks */,
+				11B262CAB258A49993C5B705 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -228,6 +247,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				3CF88F231A034EF300369E79 /* PBXTargetDependency */,
 			);
 			name = ColorMapViewTests;
 			productName = ColorMapViewTests;
@@ -347,7 +367,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-ColorMapViewTests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColorMapViewTests/Pods-ColorMapViewTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -387,6 +407,11 @@
 			isa = PBXTargetDependency;
 			target = 3C83029119B9FD450078558B /* ColorMapView */;
 			targetProxy = 3C8302DB19BA02560078558B /* PBXContainerItemProxy */;
+		};
+		3CF88F231A034EF300369E79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C83029119B9FD450078558B /* ColorMapView */;
+			targetProxy = 3CF88F221A034EF300369E79 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -518,7 +543,7 @@
 		};
 		3C8302A919B9FD450078558B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3BEB385F8D784D359CE202F7 /* Pods-ColorMapViewTests.xcconfig */;
+			baseConfigurationReference = 5F273D85F107422540330531 /* Pods-ColorMapViewTests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -536,7 +561,7 @@
 		};
 		3C8302AA19B9FD450078558B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3BEB385F8D784D359CE202F7 /* Pods-ColorMapViewTests.xcconfig */;
+			baseConfigurationReference = 1D9B085103D8948ED47F4263 /* Pods-ColorMapViewTests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
