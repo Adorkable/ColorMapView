@@ -1,0 +1,9 @@
+language: objective-c
+xcode_workspace: ColorMapView.xcworkspace
+xcode_scheme: ColorMapExample
+before_install: rm Podfile.lock
+xcode_sdk: iphonesimulator
+script: 
+- xctool -workspace ColorMapView.xcworkspace -scheme ColorMapView -sdk iphonesimulator build
+- xctool -workspace ColorMapView.xcworkspace -scheme ColorMapExample -sdk iphonesimulator build
+# weird error when testing locally - xctool -workspace ColorMapView.xcworkspace -scheme ColorMapViewTests -sdk iphonesimulator test
