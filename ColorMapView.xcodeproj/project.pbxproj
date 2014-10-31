@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22E4AB21790EB520082D779E /* libPods-ColorMapViewSimulatorTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0640B905ADFDCB8ACCDE204D /* libPods-ColorMapViewSimulatorTests.a */; };
 		3C83029819B9FD450078558B /* ColorMapView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C83029719B9FD450078558B /* ColorMapView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3C8302AC19B9FD5F0078558B /* ColorMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C8302AB19B9FD5F0078558B /* ColorMapView.m */; };
 		3C8302AF19B9FDFB0078558B /* colorMap.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C8302AE19B9FDFB0078558B /* colorMap.png */; };
@@ -20,6 +21,8 @@
 		3C8302DD19BA025A0078558B /* ColorMapView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C83029219B9FD450078558B /* ColorMapView.framework */; };
 		3C8302DF19BA03AC0078558B /* ColorMapViewSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C8302DE19BA03AC0078558B /* ColorMapViewSpec.m */; };
 		3CF88F241A03536D00369E79 /* ColorMapView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C83029219B9FD450078558B /* ColorMapView.framework */; };
+		3CF88F301A0379E000369E79 /* ColorMapView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C83029219B9FD450078558B /* ColorMapView.framework */; };
+		3CF88F391A037B5F00369E79 /* ColorMapViewSimulatorSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF88F381A037B5F00369E79 /* ColorMapViewSimulatorSpec.m */; };
 		7517B09D3F524E4D97B13408 /* libPods-ColorMapViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D922CDA0F4BA4D6987FC85CB /* libPods-ColorMapViewTests.a */; };
 /* End PBXBuildFile section */
 
@@ -38,9 +41,17 @@
 			remoteGlobalIDString = 3C83029119B9FD450078558B;
 			remoteInfo = ColorMapView;
 		};
+		3CF88F311A0379E000369E79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C83028919B9FD450078558B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C83029119B9FD450078558B;
+			remoteInfo = ColorMapView;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0640B905ADFDCB8ACCDE204D /* libPods-ColorMapViewSimulatorTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ColorMapViewSimulatorTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D9B085103D8948ED47F4263 /* Pods-ColorMapViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorMapViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ColorMapViewTests/Pods-ColorMapViewTests.release.xcconfig"; sourceTree = "<group>"; };
 		3C83029219B9FD450078558B /* ColorMapView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ColorMapView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C83029619B9FD450078558B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -61,7 +72,12 @@
 		3C8302C519B9FEEB0078558B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3C8302C719B9FEEB0078558B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3C8302DE19BA03AC0078558B /* ColorMapViewSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorMapViewSpec.m; sourceTree = "<group>"; };
+		3CF88F2A1A0379E000369E79 /* ColorMapViewSimulatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorMapViewSimulatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CF88F2D1A0379E000369E79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CF88F381A037B5F00369E79 /* ColorMapViewSimulatorSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorMapViewSimulatorSpec.m; sourceTree = "<group>"; };
 		5F273D85F107422540330531 /* Pods-ColorMapViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorMapViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ColorMapViewTests/Pods-ColorMapViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B64AC823308823E2A22AD74F /* Pods-ColorMapViewSimulatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorMapViewSimulatorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ColorMapViewSimulatorTests/Pods-ColorMapViewSimulatorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B9D1D6B686EB152B2A641060 /* Pods-ColorMapViewSimulatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorMapViewSimulatorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ColorMapViewSimulatorTests/Pods-ColorMapViewSimulatorTests.release.xcconfig"; sourceTree = "<group>"; };
 		D922CDA0F4BA4D6987FC85CB /* libPods-ColorMapViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ColorMapViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -90,6 +106,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3CF88F271A0379E000369E79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF88F301A0379E000369E79 /* ColorMapView.framework in Frameworks */,
+				22E4AB21790EB520082D779E /* libPods-ColorMapViewSimulatorTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -98,6 +123,8 @@
 			children = (
 				5F273D85F107422540330531 /* Pods-ColorMapViewTests.debug.xcconfig */,
 				1D9B085103D8948ED47F4263 /* Pods-ColorMapViewTests.release.xcconfig */,
+				B64AC823308823E2A22AD74F /* Pods-ColorMapViewSimulatorTests.debug.xcconfig */,
+				B9D1D6B686EB152B2A641060 /* Pods-ColorMapViewSimulatorTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -108,6 +135,7 @@
 				3C8302AD19B9FDFB0078558B /* Assets */,
 				3C83029419B9FD450078558B /* ColorMapView */,
 				3C83029E19B9FD450078558B /* ColorMapViewTests */,
+				3CF88F2B1A0379E000369E79 /* ColorMapViewSimulatorTests */,
 				3C8302B919B9FEEB0078558B /* ColorMapExample */,
 				3C83029319B9FD450078558B /* Products */,
 				D8A797A72B6F41BC99BEDABB /* Frameworks */,
@@ -121,6 +149,7 @@
 				3C83029219B9FD450078558B /* ColorMapView.framework */,
 				3C83029D19B9FD450078558B /* ColorMapViewTests.xctest */,
 				3C8302B819B9FEEB0078558B /* ColorMapExample.app */,
+				3CF88F2A1A0379E000369E79 /* ColorMapViewSimulatorTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -193,10 +222,28 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		3CF88F2B1A0379E000369E79 /* ColorMapViewSimulatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				3CF88F381A037B5F00369E79 /* ColorMapViewSimulatorSpec.m */,
+				3CF88F2C1A0379E000369E79 /* Supporting Files */,
+			);
+			path = ColorMapViewSimulatorTests;
+			sourceTree = "<group>";
+		};
+		3CF88F2C1A0379E000369E79 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CF88F2D1A0379E000369E79 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		D8A797A72B6F41BC99BEDABB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				D922CDA0F4BA4D6987FC85CB /* libPods-ColorMapViewTests.a */,
+				0640B905ADFDCB8ACCDE204D /* libPods-ColorMapViewSimulatorTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -272,6 +319,26 @@
 			productReference = 3C8302B819B9FEEB0078558B /* ColorMapExample.app */;
 			productType = "com.apple.product-type.application";
 		};
+		3CF88F291A0379E000369E79 /* ColorMapViewSimulatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CF88F331A0379E000369E79 /* Build configuration list for PBXNativeTarget "ColorMapViewSimulatorTests" */;
+			buildPhases = (
+				51CB1FB66A084F85D9A2E78B /* Check Pods Manifest.lock */,
+				3CF88F261A0379E000369E79 /* Sources */,
+				3CF88F271A0379E000369E79 /* Frameworks */,
+				3CF88F281A0379E000369E79 /* Resources */,
+				BE9552C741D49FE8D949B125 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CF88F321A0379E000369E79 /* PBXTargetDependency */,
+			);
+			name = ColorMapViewSimulatorTests;
+			productName = ColorMapViewSimulatorTests;
+			productReference = 3CF88F2A1A0379E000369E79 /* ColorMapViewSimulatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -290,6 +357,9 @@
 					3C8302B719B9FEEB0078558B = {
 						CreatedOnToolsVersion = 6.0;
 					};
+					3CF88F291A0379E000369E79 = {
+						CreatedOnToolsVersion = 6.1;
+					};
 				};
 			};
 			buildConfigurationList = 3C83028C19B9FD450078558B /* Build configuration list for PBXProject "ColorMapView" */;
@@ -307,6 +377,7 @@
 			targets = (
 				3C83029119B9FD450078558B /* ColorMapView */,
 				3C83029C19B9FD450078558B /* ColorMapViewTests */,
+				3CF88F291A0379E000369E79 /* ColorMapViewSimulatorTests */,
 				3C8302B719B9FEEB0078558B /* ColorMapExample */,
 			);
 		};
@@ -337,6 +408,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3CF88F281A0379E000369E79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -353,6 +431,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		51CB1FB66A084F85D9A2E78B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BE9552C741D49FE8D949B125 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColorMapViewSimulatorTests/Pods-ColorMapViewSimulatorTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD8346395ADB41439578A47D /* Copy Pods Resources */ = {
@@ -400,6 +508,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3CF88F261A0379E000369E79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF88F391A037B5F00369E79 /* ColorMapViewSimulatorSpec.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -412,6 +528,11 @@
 			isa = PBXTargetDependency;
 			target = 3C83029119B9FD450078558B /* ColorMapView */;
 			targetProxy = 3CF88F221A034EF300369E79 /* PBXContainerItemProxy */;
+		};
+		3CF88F321A0379E000369E79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C83029119B9FD450078558B /* ColorMapView */;
+			targetProxy = 3CF88F311A0379E000369E79 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -599,6 +720,40 @@
 			};
 			name = Release;
 		};
+		3CF88F341A0379E000369E79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B64AC823308823E2A22AD74F /* Pods-ColorMapViewSimulatorTests.debug.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ColorMapViewSimulatorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3CF88F351A0379E000369E79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9D1D6B686EB152B2A641060 /* Pods-ColorMapViewSimulatorTests.release.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ColorMapViewSimulatorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -634,6 +789,15 @@
 			buildConfigurations = (
 				3C8302D619B9FEEB0078558B /* Debug */,
 				3C8302D719B9FEEB0078558B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CF88F331A0379E000369E79 /* Build configuration list for PBXNativeTarget "ColorMapViewSimulatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CF88F341A0379E000369E79 /* Debug */,
+				3CF88F351A0379E000369E79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -19,10 +19,14 @@ describe(@"ColorMapView", ^{
         colorMapView = [ [ColorMapView alloc] initWithFrame:CGRectMake(0, 0, 300, 300) ];
     });
     
-    it(@"Appearance", ^{
-        //expect(colorMapView).to.recordSnapshot();
-        expect(colorMapView).to.haveValidSnapshot();
-    });
+    uint32_t(^approximateColorHash)(UIColor *color) = ^uint32_t(UIColor *color)
+    {
+        // http://nshipster.com/equality/
+        CGFloat red, green, blue, alpha;
+        [color getRed:&red green:&green blue:&blue alpha:&alpha];
+        
+        return ( (uint32_t)(red * 255) << 24) + ( (uint32_t)(green * 255) << 16) + ( (uint32_t)(blue * 255) << 8) + ( (uint32_t)(alpha * 255) );
+    };
     
     void(^expectToEqual)(CGPoint locationInImage, CGPoint locationInView) = ^void(CGPoint locationInImage, CGPoint locationInView)
     {
@@ -31,7 +35,8 @@ describe(@"ColorMapView", ^{
         UIColor *colorInImage = [colorMapImage colorAtLocation:locationInImage];
         UIColor *colorInMapView = [colorMapView getColorAtLocation:locationInView inView:colorMapView];
         
-        expect(colorInImage).to.equal(colorInMapView);
+//        expect(colorInImage).to.equal(colorInMapView);
+        expect( approximateColorHash(colorInImage) ).to.equal( approximateColorHash(colorInMapView) );
     };
     
     describe(@"getColorAtLocation:inView:", ^{

@@ -4,8 +4,14 @@
 target "ColorMapViewTests" do
     pod 'Specta', '~> 0.2.x'
     pod 'Expecta', '~> 0.3.x'
-    pod 'FBSnapshotTestCase', '~> 1.1'
     pod 'Expecta+Snapshots', '~> 1.2.x'
+end
+
+target "ColorMapViewSimulatorTests" do
+    pod 'Specta', '~> 0.2.x'
+    pod 'Expecta', '~> 0.3.x'
+    pod 'Expecta+Snapshots', '~> 1.2.x'
+    pod 'FBSnapshotTestCase', '~> 1.1'
 end
 
 post_install do |installer|
