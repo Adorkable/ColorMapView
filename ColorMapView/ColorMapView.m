@@ -69,7 +69,7 @@ static UIImage *mapImageStatic = nil;
 
 + (NSBundle *)bundle
 {
-    return [NSBundle bundleWithIdentifier:@"com.adorkable.ColorMapView"];
+    return [NSBundle bundleWithIdentifier:@"cc.adorkable.ColorMapView"];
 }
 
 + (NSString *)colorMapImagePath
