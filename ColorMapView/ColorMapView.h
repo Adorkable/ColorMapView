@@ -28,6 +28,7 @@ IB_DESIGNABLE
 
 @interface ColorMapView : UIImageView
 
+- (UIColor *)getColorAtLocation:(CGPoint)location;
 - (UIColor *)getColorAtLocation:(CGPoint)location inView:(UIView *)inView;
 
 // primarily for testing purposes

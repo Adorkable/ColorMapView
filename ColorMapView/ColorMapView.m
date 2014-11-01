@@ -53,6 +53,11 @@ static UIImage *mapImageStatic = nil;
 }
 #endif
 
+- (UIColor *)getColorAtLocation:(CGPoint)location
+{
+    return [self getColorAtLocation:location inView:self];
+}
+
 - (UIColor *)getColorAtLocation:(CGPoint)location inView:(UIView *)inView
 {
     UIColor *result;

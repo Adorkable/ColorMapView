@@ -33,13 +33,13 @@ describe(@"ColorMapView", ^{
         UIImage *colorMapImage = [UIImage imageWithContentsOfFile:[ColorMapView colorMapImagePath] ];
         
         UIColor *colorInImage = [colorMapImage colorAtLocation:locationInImage];
-        UIColor *colorInMapView = [colorMapView getColorAtLocation:locationInView inView:colorMapView];
+        UIColor *colorInMapView = [colorMapView getColorAtLocation:locationInView];
         
 //        expect(colorInImage).to.equal(colorInMapView);
         expect( approximateColorHash(colorInImage) ).to.equal( approximateColorHash(colorInMapView) );
     };
     
-    describe(@"getColorAtLocation:inView:", ^{
+    describe(@"getColorAtLocation:", ^{
         it(@"Top Left", ^{
             expectToEqual( CGPointMake(0, 0), CGPointMake(0, 0) );
         });
@@ -53,6 +53,8 @@ describe(@"ColorMapView", ^{
                           );
         });
     });
+    
+    // TODO: getColorAtLocation:inView:
 });
 
 SpecEnd
