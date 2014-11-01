@@ -7,3 +7,4 @@ script:
 - xctool -workspace ColorMapView.xcworkspace -scheme ColorMapView -sdk iphonesimulator build
 - xctool -workspace ColorMapView.xcworkspace -scheme ColorMapExample -sdk iphonesimulator build
 # weird error when testing locally - xctool -workspace ColorMapView.xcworkspace -scheme ColorMapViewTests -sdk iphonesimulator test
+- xctool -workspace ColorMapView.xcworkspace -scheme "Podspec Lint" -sdk iphonesimulator build
