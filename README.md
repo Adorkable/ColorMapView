@@ -12,7 +12,7 @@ ColorMapView
 
 Installation
 ---
-***ColorMapView** is available through **[cocoapods](http://cocoapods.org)**, to install simple add the following line to your `PodFile`:
+**ColorMapView** is available through **[cocoapods](http://cocoapods.org)**, to install simple add the following line to your `PodFile`:
 
 ``` ruby
   pod "ColorMapView"
