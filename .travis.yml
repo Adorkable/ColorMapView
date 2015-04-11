@@ -1,10 +1,15 @@
 language: objective-c
 xcode_workspace: ColorMapView.xcworkspace
 xcode_scheme: ColorMapExample
-before_install: rm Podfile.lock
 xcode_sdk: iphonesimulator
-script: 
-- xctool -workspace ColorMapView.xcworkspace -scheme ColorMapView -sdk iphonesimulator build
-- xctool -workspace ColorMapView.xcworkspace -scheme ColorMapExample -sdk iphonesimulator build
+
+before_install:
+ - rm Podfile.lock
+ - sudo pip install PyYAML; sudo pip install cpp-coveralls
+script:
+ - xctool -workspace ColorMapView.xcworkspace -scheme ColorMapView -sdk iphonesimulator build
+ - xctool -workspace ColorMapView.xcworkspace -scheme ColorMapExample -sdk iphonesimulator build
 # weird error when testing locally - xctool -workspace ColorMapView.xcworkspace -scheme ColorMapViewTests -sdk iphonesimulator test
-- xctool -workspace ColorMapView.xcworkspace -scheme "Podspec Lint" -sdk iphonesimulator build
+ - xctool -workspace ColorMapView.xcworkspace -scheme "Podspec Lint" -sdk iphonesimulator build
+after_success:
+ - ./Tools/coveralls.rb --extension m --extension mm
