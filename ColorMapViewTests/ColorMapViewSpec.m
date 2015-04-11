@@ -52,6 +52,11 @@ describe(@"ColorMapView", ^{
                           CGPointMake(colorMapView.frame.size.width - 1, colorMapView.frame.size.height - 1)
                           );
         });
+        
+        it(@"Invalid", ^{
+            UIColor *colorInMapView = [colorMapView getColorAtLocation:CGPointMake(-1, 100) ];
+            expect(colorInMapView).to.beNil();
+        });
     });
     
     // TODO: getColorAtLocation:inView:
