@@ -12,4 +12,4 @@ script:
 # weird error when testing locally - xctool -workspace ColorMapView.xcworkspace -scheme ColorMapViewTests -sdk iphonesimulator test
  - xctool -workspace ColorMapView.xcworkspace -scheme "Podspec Lint" -sdk iphonesimulator build
 after_success:
- - ./Tools/coveralls.rb --extension m --extension mm
+ - ./coveralls.rb --extension m --extension mm
