@@ -19,6 +19,16 @@ describe(@"ColorMapView", ^{
         colorMapView = [ [ColorMapView alloc] initWithFrame:CGRectMake(0, 0, 300, 300) ];
     });
     
+    describe(@"initWithFrame", ^{
+        expect(colorMapView).toNot.beNil();
+    });
+    
+    describe(@"initWithCoder", ^{
+        ColorMapView *colorMapView = [ [ColorMapView alloc] initWithCoder:nil]; // TODO: mock coder object?
+        
+        expect(colorMapView).notTo.beNil();
+    });
+    
     uint32_t(^approximateColorHash)(UIColor *color) = ^uint32_t(UIColor *color)
     {
         // http://nshipster.com/equality/
