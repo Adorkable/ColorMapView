@@ -22,28 +22,48 @@ static UIImage *mapImageStatic = nil;
 
 - (instancetype)initWithCoder:(NSCoder *)aDecoder
 {
+    BOOL result = false;
+
     self = [super initWithCoder:aDecoder];
     if (self)
     {
-        [self sharedInit];
+        result = [self sharedInit];
     }
-    return self;
+    
+    if (result)
+    {
+        return self;
+    } else
+    {
+        return nil;
+    }
 }
 
 - (instancetype)initWithFrame:(CGRect)frame
 {
+    BOOL result = false;
+    
     self = [super initWithFrame:frame];
     if (self)
     {
-        [self sharedInit];
+        result = [self sharedInit];
     }
-    return self;
+
+    if (result)
+    {
+        return self;
+    } else
+    {
+        return nil;
+    }
 }
 
-- (void)sharedInit
+- (BOOL)sharedInit
 {
     self.contentMode = UIViewContentModeScaleToFill;
     [self setImage:self.mapImage];
+    
+    return self.image != nil;
 }
 
 #if TARGET_INTERFACE_BUILDER
