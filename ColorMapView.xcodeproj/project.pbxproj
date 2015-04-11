@@ -34,6 +34,7 @@
 		3C8302C819B9FEEB0078558B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C8302C719B9FEEB0078558B /* Images.xcassets */; };
 		3C8302DD19BA025A0078558B /* ColorMapView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C83029219B9FD450078558B /* ColorMapView.framework */; };
 		3C8302DF19BA03AC0078558B /* ColorMapViewSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C8302DE19BA03AC0078558B /* ColorMapViewSpec.m */; };
+		3C9FB0B81AD96BDC0071FCCF /* ColorMapView.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3C83029219B9FD450078558B /* ColorMapView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3CCEC9691A04704F00841F53 /* LICENSE.md in Sources */ = {isa = PBXBuildFile; fileRef = 3CCEC9661A04704100841F53 /* LICENSE.md */; };
 		3CF88F241A03536D00369E79 /* ColorMapView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C83029219B9FD450078558B /* ColorMapView.framework */; };
 		3CF88F301A0379E000369E79 /* ColorMapView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C83029219B9FD450078558B /* ColorMapView.framework */; };
@@ -64,6 +65,19 @@
 			remoteInfo = ColorMapView;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3C9FB0B71AD96BD30071FCCF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3C9FB0B81AD96BDC0071FCCF /* ColorMapView.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0640B905ADFDCB8ACCDE204D /* libPods-ColorMapViewSimulatorTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ColorMapViewSimulatorTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -313,6 +327,7 @@
 				3C83029A19B9FD450078558B /* Frameworks */,
 				3C83029B19B9FD450078558B /* Resources */,
 				FD8346395ADB41439578A47D /* Copy Pods Resources */,
+				3C9FB0B71AD96BD30071FCCF /* CopyFiles */,
 			);
 			buildRules = (
 			);

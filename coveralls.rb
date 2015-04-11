@@ -21,6 +21,7 @@ opts.on('-e', '--exclude-folder FOLDER', 'Folder to exclude') do |v|
    coveralls_cmd.concat(" -e #{v}")
 end
 
+
 opts.on('-h', '--exclude-headers', 'Ignores headers') do |v|
   excludeHeaders = true
 end
@@ -28,6 +29,10 @@ end
 opts.on('-x', '--extension EXT', 'Source file extension to process') do |v|
    extensionsToProcess << v
    coveralls_cmd.concat(" -x #{v}")
+end
+
+opts.on_tail('-v', '--verbose', 'print verbose messages') do
+   coveralls_cmd.concat(" --verbose")
 end
 
 opts.on_tail("-?", "--help", "Show this message") do
@@ -57,7 +62,6 @@ GCOV_SOURCE_PATTERN = Regexp.new(/Source:(.*)/)
 
 # enumerate all gcda files underneath derivedData
 Find.find(derivedDataDir) do |gcda_file|
-
   if gcda_file.match(/\.gcda\Z/)
     
       #get just the folder name
@@ -86,11 +90,9 @@ Find.find(derivedDataDir) do |gcda_file|
             
             # cut off absolute working dir to get relative source path
             relative_path = source_path.slice(workingDir.length+1, source_path.length)
-            
+
             extension = File.extname(relative_path)
-                extension = extension.slice(1, extension.length-1)
-            
-            puts "#{extension}"
+            extension = extension.slice(1, extension.length-1)
             
             # get the path components
             path_comps = relative_path.split(File::SEPARATOR)
@@ -98,7 +100,15 @@ Find.find(derivedDataDir) do |gcda_file|
             shouldProcess = false
             exclusionMsg =""
             
-            if (excludedFolders.include?(path_comps[0]))
+            excludeByFolder = false
+            excludedFolders.each do |excludedFolder| 
+                if (relative_path.include?(excludedFolder)) 
+                    excludeByFolder = true
+                end
+            end
+
+
+            if (excludeByFolder)
               exclusionMsg = "excluded via option"
             else
               if (excludeHeaders == true && extension == 'h')
@@ -129,7 +139,8 @@ Find.find(derivedDataDir) do |gcda_file|
    end
 end
 
-#call the coveralls, exclude some files
+# call the coveralls, exclude some files
+puts "Calling: #{coveralls_cmd}"
 system coveralls_cmd
 
 #clean up
