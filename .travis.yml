@@ -16,4 +16,4 @@ before_install:
  - pod install
 
 after_success:
- - ./coveralls.rb --extension m --extension mm -v
+ - ./Tools/coveralls.rb --extension m --extension mm -v
