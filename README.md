@@ -4,12 +4,12 @@ ColorMapView
 [![Pod Version](http://img.shields.io/cocoapods/v/ColorMapView.svg?style=flat)](http://cocoadocs.org/docsets/ColorMapView/)
 [![Pod Platform](http://img.shields.io/cocoapods/p/ColorMapView.svg?style=flat)](http://cocoadocs.org/docsets/ColorMapView/)
 [![Pod License](http://img.shields.io/cocoapods/l/ColorMapView.svg?style=flat)](http://cocoadocs.org/docsets/ColorMapView/)
-[![Travis Build Status](http://img.shields.io/travis/adorkable/ColorMapView.svg?style=flat)](https://travis-ci.org/adorkable/ColorMapView)
-[![Coverage Status](https://coveralls.io/repos/adorkable/ColorMapView/badge.svg?style=flat)](https://coveralls.io/r/adorkable/ColorMapView?branch=feature%2FCodeCoverage)
+[![Travis Build Status](http://img.shields.io/travis/Adorkable/ColorMapView.svg?style=flat)](https://travis-ci.org/Adorkable/ColorMapView)
+[![Coverage Status](https://coveralls.io/repos/Adorkable/ColorMapView/badge.svg?style=flat)](https://coveralls.io/r/Adorkable/ColorMapView?branch=feature%2FCodeCoverage)
 
 **ColorMapView** is a simple iOS View mapped to a color gradient. Great for color picker type dealies.
 
-![screenshot1](https://github.com/adorkable/ColorMapView/blob/master/Screenshots/screenshot1.png?raw=true)
+![screenshot1](https://github.com/Adorkable/ColorMapView/blob/master/Screenshots/screenshot1.png?raw=true)
 
 Installation
 ---
@@ -19,7 +19,7 @@ Installation
   pod "ColorMapView"
 ```
 
-Alternatively you can clone the **[github repo](https://github.com/adorkable/ColorMapView)**.
+Alternatively you can clone the **[github repo](https://github.com/Adorkable/ColorMapView)**.
 
 Setup
 ---
