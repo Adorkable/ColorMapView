@@ -5,7 +5,7 @@ ColorMapView
 [![Pod Platform](http://img.shields.io/cocoapods/p/ColorMapView.svg?style=flat)](http://cocoadocs.org/docsets/ColorMapView/)
 [![Pod License](http://img.shields.io/cocoapods/l/ColorMapView.svg?style=flat)](http://cocoadocs.org/docsets/ColorMapView/)
 [![Travis Build Status](http://img.shields.io/travis/yoiang/ColorMapView.svg?style=flat)](https://travis-ci.org/yoiang/ColorMapView)
-[![Coverage Status](https://coveralls.io/repos/yoiang/ColorMapView/badge.svg?branch=feature%2FCodeCoverage)](https://coveralls.io/r/yoiang/ColorMapView?branch=feature%2FCodeCoverage)
+[![Coverage Status](https://coveralls.io/repos/yoiang/ColorMapView/badge.svg?style=flat)](https://coveralls.io/r/yoiang/ColorMapView?branch=feature%2FCodeCoverage)
 
 **ColorMapView** is a simple iOS View mapped to a color gradient. Great for color picker type dealies.
 
