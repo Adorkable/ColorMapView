@@ -1,11 +1,14 @@
 language: objective-c
 xcode_workspace: ColorMapView.xcworkspace
-xcode_scheme: ColorMapExample
 xcode_sdk: iphonesimulator
-xcode_scheme:
- - ColorMapView
- - ColorMapExample
- - "Podspec Lint"
+#xcode_scheme:
+# - ColorMapView
+# - ColorMapExample
+# - "Podspec Lint"
+
+script:
+ - xctool -workspace ColorMapView.xcworkspace -scheme 'ColorMapView' \
+build test -sdk iphonesimulator GCC_INSTRUMENT_PROGRAM_FLOW_ARCS=YES GCC_GENERATE_TEST_COVERAGE_FILES=YES
 
 before_install:
  - rm Podfile.lock
@@ -16,4 +19,4 @@ before_install:
  - pod install
 
 after_success:
- - ./Tools/coveralls.rb --extension m --extension mm -v
+ - bash <(curl -s https://codecov.io/bash)
