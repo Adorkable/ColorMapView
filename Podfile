@@ -2,15 +2,15 @@
 # platform :ios, "6.0"
 
 target "ColorMapViewTests" do
-    pod 'Specta', '~> 0.2.x'
-    pod 'Expecta', '~> 0.3.x'
-    pod 'Expecta+Snapshots', '~> 1.2.x'
+    pod 'Specta', '~> 0.2.1'
+    pod 'Expecta', '~> 0.3.1'
+    pod 'Expecta+Snapshots', '~> 1.2.1'
 end
 
 target "ColorMapViewSimulatorTests" do
-    pod 'Specta', '~> 0.2.x'
-    pod 'Expecta', '~> 0.3.x'
-    pod 'Expecta+Snapshots', '~> 1.2.x'
+    pod 'Specta', '~> 0.2.1'
+    pod 'Expecta', '~> 0.3.1'
+    pod 'Expecta+Snapshots', '~> 1.2.1'
     pod 'FBSnapshotTestCase', '~> 1.1'
 end
 

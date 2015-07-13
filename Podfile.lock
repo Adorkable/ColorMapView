@@ -7,10 +7,10 @@ PODS:
   - Specta (0.2.1)
 
 DEPENDENCIES:
-  - Expecta (~> 0.3.x)
-  - Expecta+Snapshots (~> 1.2.x)
+  - Expecta (~> 0.3.1)
+  - Expecta+Snapshots (~> 1.2.1)
   - FBSnapshotTestCase (~> 1.1)
-  - Specta (~> 0.2.x)
+  - Specta (~> 0.2.1)
 
 SPEC CHECKSUMS:
   Expecta: a354d4633409dd9fe8c4f5ff5130426adbe31628
@@ -18,4 +18,4 @@ SPEC CHECKSUMS:
   FBSnapshotTestCase: 272ee441d3219e76f8afb95797826b968a573ef1
   Specta: 15a276a6343867b426d5ed135d5aa4d04123a573
 
-COCOAPODS: 0.36.3
+COCOAPODS: 0.37.2
