@@ -482,7 +482,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColorMapViewTests/Pods-ColorMapViewTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
 		3CCEC9721A04717300841F53 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -525,7 +524,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColorMapViewSimulatorTests/Pods-ColorMapViewSimulatorTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
 		756AFE7E720FF4BF3973BD0B /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
