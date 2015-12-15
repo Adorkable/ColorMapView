@@ -1,11 +1,11 @@
 ColorMapView
 ===
 
-[![Pod Version](http://img.shields.io/cocoapods/v/ColorMapView.svg?style=flat)](http://cocoadocs.org/docsets/ColorMapView/)
-[![Pod Platform](http://img.shields.io/cocoapods/p/ColorMapView.svg?style=flat)](http://cocoadocs.org/docsets/ColorMapView/)
-[![Pod License](http://img.shields.io/cocoapods/l/ColorMapView.svg?style=flat)](http://cocoadocs.org/docsets/ColorMapView/)
 [![Travis Build Status](http://img.shields.io/travis/Adorkable/ColorMapView.svg?style=flat)](https://travis-ci.org/Adorkable/ColorMapView)
 [![Coverage Status](https://coveralls.io/repos/Adorkable/ColorMapView/badge.svg?style=flat&branch=master)](https://coveralls.io/r/Adorkable/ColorMapView?branch=master)
+[![Pod Platform](http://img.shields.io/cocoapods/p/ColorMapView.svg?style=flat)](http://cocoadocs.org/docsets/ColorMapView/)
+[![Pod License](http://img.shields.io/cocoapods/l/ColorMapView.svg?style=flat)](http://cocoadocs.org/docsets/ColorMapView/)
+[![Pod Version](http://img.shields.io/cocoapods/v/ColorMapView.svg?style=flat)](http://cocoadocs.org/docsets/ColorMapView/)
 
 **ColorMapView** is a simple iOS View mapped to a color gradient. Great for color picker type dealies.
 
