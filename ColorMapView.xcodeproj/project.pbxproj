@@ -21,7 +21,9 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		22E4AB21790EB520082D779E /* libPods-ColorMapViewSimulatorTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0640B905ADFDCB8ACCDE204D /* libPods-ColorMapViewSimulatorTests.a */; };
+		1258A3A0EB0D3FEEAA29C17A /* libPods-ColorMapViewSimulatorTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72BCFA5177699F576114514A /* libPods-ColorMapViewSimulatorTests.a */; };
+		3C4B71ED1C1F97590011B23A /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 3CCEC9661A04704100841F53 /* LICENSE.md */; };
+		3C4B71EE1C1F97640011B23A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3CCEC9671A04704100841F53 /* README.md */; };
 		3C83029819B9FD450078558B /* ColorMapView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C83029719B9FD450078558B /* ColorMapView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3C8302AC19B9FD5F0078558B /* ColorMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C8302AB19B9FD5F0078558B /* ColorMapView.m */; };
 		3C8302AF19B9FDFB0078558B /* colorMap.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C8302AE19B9FDFB0078558B /* colorMap.png */; };
@@ -35,11 +37,12 @@
 		3C8302DD19BA025A0078558B /* ColorMapView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C83029219B9FD450078558B /* ColorMapView.framework */; };
 		3C8302DF19BA03AC0078558B /* ColorMapViewSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C8302DE19BA03AC0078558B /* ColorMapViewSpec.m */; };
 		3C9FB0B81AD96BDC0071FCCF /* ColorMapView.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3C83029219B9FD450078558B /* ColorMapView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		3CCEC9691A04704F00841F53 /* LICENSE.md in Sources */ = {isa = PBXBuildFile; fileRef = 3CCEC9661A04704100841F53 /* LICENSE.md */; };
 		3CF88F241A03536D00369E79 /* ColorMapView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C83029219B9FD450078558B /* ColorMapView.framework */; };
 		3CF88F301A0379E000369E79 /* ColorMapView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C83029219B9FD450078558B /* ColorMapView.framework */; };
 		3CF88F391A037B5F00369E79 /* ColorMapViewSimulatorSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF88F381A037B5F00369E79 /* ColorMapViewSimulatorSpec.m */; };
-		7517B09D3F524E4D97B13408 /* libPods-ColorMapViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D922CDA0F4BA4D6987FC85CB /* libPods-ColorMapViewTests.a */; };
+		A56132E9F95F15CE54E8D7FF /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		D400996E70593C806E448890 /* libPods-ColorMapViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B2B075E800562E33D834A30E /* libPods-ColorMapViewTests.a */; };
+		E639EF2326471AF0518923B7 /* libPods-ColorMapViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B2B075E800562E33D834A30E /* libPods-ColorMapViewTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,7 +83,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0640B905ADFDCB8ACCDE204D /* libPods-ColorMapViewSimulatorTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ColorMapViewSimulatorTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D9B085103D8948ED47F4263 /* Pods-ColorMapViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorMapViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ColorMapViewTests/Pods-ColorMapViewTests.release.xcconfig"; sourceTree = "<group>"; };
 		3C83029219B9FD450078558B /* ColorMapView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ColorMapView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C83029619B9FD450078558B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -108,10 +110,11 @@
 		3CF88F2A1A0379E000369E79 /* ColorMapViewSimulatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorMapViewSimulatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CF88F2D1A0379E000369E79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3CF88F381A037B5F00369E79 /* ColorMapViewSimulatorSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorMapViewSimulatorSpec.m; sourceTree = "<group>"; };
+		5B20C1D40D127CF017FA2F06 /* Pods-ColorMapViewSimulatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorMapViewSimulatorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ColorMapViewSimulatorTests/Pods-ColorMapViewSimulatorTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5F273D85F107422540330531 /* Pods-ColorMapViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorMapViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ColorMapViewTests/Pods-ColorMapViewTests.debug.xcconfig"; sourceTree = "<group>"; };
-		B64AC823308823E2A22AD74F /* Pods-ColorMapViewSimulatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorMapViewSimulatorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ColorMapViewSimulatorTests/Pods-ColorMapViewSimulatorTests.debug.xcconfig"; sourceTree = "<group>"; };
-		B9D1D6B686EB152B2A641060 /* Pods-ColorMapViewSimulatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorMapViewSimulatorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ColorMapViewSimulatorTests/Pods-ColorMapViewSimulatorTests.release.xcconfig"; sourceTree = "<group>"; };
-		D922CDA0F4BA4D6987FC85CB /* libPods-ColorMapViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ColorMapViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72BCFA5177699F576114514A /* libPods-ColorMapViewSimulatorTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ColorMapViewSimulatorTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A50F183CE9B9D7881C42D56E /* Pods-ColorMapViewSimulatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorMapViewSimulatorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ColorMapViewSimulatorTests/Pods-ColorMapViewSimulatorTests.release.xcconfig"; sourceTree = "<group>"; };
+		B2B075E800562E33D834A30E /* libPods-ColorMapViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ColorMapViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,7 +130,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CF88F241A03536D00369E79 /* ColorMapView.framework in Frameworks */,
-				7517B09D3F524E4D97B13408 /* libPods-ColorMapViewTests.a in Frameworks */,
+				A56132E9F95F15CE54E8D7FF /* (null) in Frameworks */,
+				D400996E70593C806E448890 /* libPods-ColorMapViewTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,7 +148,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CF88F301A0379E000369E79 /* ColorMapView.framework in Frameworks */,
-				22E4AB21790EB520082D779E /* libPods-ColorMapViewSimulatorTests.a in Frameworks */,
+				E639EF2326471AF0518923B7 /* libPods-ColorMapViewTests.a in Frameworks */,
+				1258A3A0EB0D3FEEAA29C17A /* libPods-ColorMapViewSimulatorTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,8 +161,8 @@
 			children = (
 				5F273D85F107422540330531 /* Pods-ColorMapViewTests.debug.xcconfig */,
 				1D9B085103D8948ED47F4263 /* Pods-ColorMapViewTests.release.xcconfig */,
-				B64AC823308823E2A22AD74F /* Pods-ColorMapViewSimulatorTests.debug.xcconfig */,
-				B9D1D6B686EB152B2A641060 /* Pods-ColorMapViewSimulatorTests.release.xcconfig */,
+				5B20C1D40D127CF017FA2F06 /* Pods-ColorMapViewSimulatorTests.debug.xcconfig */,
+				A50F183CE9B9D7881C42D56E /* Pods-ColorMapViewSimulatorTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -279,8 +284,8 @@
 		D8A797A72B6F41BC99BEDABB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D922CDA0F4BA4D6987FC85CB /* libPods-ColorMapViewTests.a */,
-				0640B905ADFDCB8ACCDE204D /* libPods-ColorMapViewSimulatorTests.a */,
+				B2B075E800562E33D834A30E /* libPods-ColorMapViewTests.a */,
+				72BCFA5177699F576114514A /* libPods-ColorMapViewSimulatorTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -322,12 +327,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C8302A819B9FD450078558B /* Build configuration list for PBXNativeTarget "ColorMapViewTests" */;
 			buildPhases = (
-				0175DBDC18D348CEA859E719 /* Check Pods Manifest.lock */,
+				CAF257B74DD9F29ED418DD8F /* Check Pods Manifest.lock */,
 				3C83029919B9FD450078558B /* Sources */,
 				3C83029A19B9FD450078558B /* Frameworks */,
 				3C83029B19B9FD450078558B /* Resources */,
-				FD8346395ADB41439578A47D /* Copy Pods Resources */,
 				3C9FB0B71AD96BD30071FCCF /* CopyFiles */,
+				38EB50FE45875A4AFD705A19 /* Embed Pods Frameworks */,
+				756AFE7E720FF4BF3973BD0B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -361,11 +367,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3CF88F331A0379E000369E79 /* Build configuration list for PBXNativeTarget "ColorMapViewSimulatorTests" */;
 			buildPhases = (
-				51CB1FB66A084F85D9A2E78B /* Check Pods Manifest.lock */,
+				DD886EF101D29A69EF5219C6 /* Check Pods Manifest.lock */,
 				3CF88F261A0379E000369E79 /* Sources */,
 				3CF88F271A0379E000369E79 /* Frameworks */,
 				3CF88F281A0379E000369E79 /* Resources */,
-				BE9552C741D49FE8D949B125 /* Copy Pods Resources */,
+				4F98580CE8CFE7A01C6D896A /* Embed Pods Frameworks */,
+				4E460855BCFDDFA9BF27005E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -383,7 +390,7 @@
 		3C83028919B9FD450078558B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0600;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Adorkable;
 				TargetAttributes = {
 					3C83029119B9FD450078558B = {
@@ -430,7 +437,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C4B71ED1C1F97590011B23A /* LICENSE.md in Resources */,
 				3C8302AF19B9FDFB0078558B /* colorMap.png in Resources */,
+				3C4B71EE1C1F97640011B23A /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,19 +469,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0175DBDC18D348CEA859E719 /* Check Pods Manifest.lock */ = {
+		38EB50FE45875A4AFD705A19 /* Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColorMapViewTests/Pods-ColorMapViewTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		3CCEC9721A04717300841F53 /* ShellScript */ = {
@@ -488,22 +497,7 @@
 			shellPath = /bin/sh;
 			shellScript = "pod spec lint ColorMapView.podspec";
 		};
-		51CB1FB66A084F85D9A2E78B /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		BE9552C741D49FE8D949B125 /* Copy Pods Resources */ = {
+		4E460855BCFDDFA9BF27005E /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -518,7 +512,22 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColorMapViewSimulatorTests/Pods-ColorMapViewSimulatorTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FD8346395ADB41439578A47D /* Copy Pods Resources */ = {
+		4F98580CE8CFE7A01C6D896A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColorMapViewSimulatorTests/Pods-ColorMapViewSimulatorTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		756AFE7E720FF4BF3973BD0B /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -533,6 +542,36 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColorMapViewTests/Pods-ColorMapViewTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		CAF257B74DD9F29ED418DD8F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DD886EF101D29A69EF5219C6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -540,7 +579,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CCEC9691A04704F00841F53 /* LICENSE.md in Sources */,
 				3C8302AC19B9FD5F0078558B /* ColorMapView.m in Sources */,
 				3C8302B319B9FE710078558B /* UIImage+ColorMapView.m in Sources */,
 			);
@@ -625,6 +663,7 @@
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -700,6 +739,7 @@
 				INFOPLIST_FILE = ColorMapView/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.adorkable.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -717,6 +757,7 @@
 				INFOPLIST_FILE = ColorMapView/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.adorkable.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -726,16 +767,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5F273D85F107422540330531 /* Pods-ColorMapViewTests.debug.xcconfig */;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = ColorMapViewTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.adorkable.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -744,12 +781,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1D9B085103D8948ED47F4263 /* Pods-ColorMapViewTests.release.xcconfig */;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
 				INFOPLIST_FILE = ColorMapViewTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.adorkable.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -765,6 +798,7 @@
 				);
 				INFOPLIST_FILE = ColorMapExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.adorkable.ColorMapView.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -776,6 +810,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = ColorMapExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.adorkable.ColorMapView.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -796,7 +831,7 @@
 		};
 		3CF88F341A0379E000369E79 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B64AC823308823E2A22AD74F /* Pods-ColorMapViewSimulatorTests.debug.xcconfig */;
+			baseConfigurationReference = 5B20C1D40D127CF017FA2F06 /* Pods-ColorMapViewSimulatorTests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -809,13 +844,14 @@
 				INFOPLIST_FILE = ColorMapViewSimulatorTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.adorkable.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		3CF88F351A0379E000369E79 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B9D1D6B686EB152B2A641060 /* Pods-ColorMapViewSimulatorTests.release.xcconfig */;
+			baseConfigurationReference = A50F183CE9B9D7881C42D56E /* Pods-ColorMapViewSimulatorTests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -824,6 +860,7 @@
 				INFOPLIST_FILE = ColorMapViewSimulatorTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.adorkable.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

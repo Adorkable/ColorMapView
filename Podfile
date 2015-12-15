@@ -1,23 +1,17 @@
-# Uncomment this line to define a global platform for your project
-# platform :ios, "6.0"
+platform :ios, "8.0"
 
-target "ColorMapViewTests" do
-    pod 'Specta', '~> 0.2.1'
-    pod 'Expecta', '~> 0.3.1'
-    pod 'Expecta+Snapshots', '~> 1.2.1'
+target :ColorMapViewTests do
+  pod 'Specta', '~> 1.0'
+  pod 'Expecta', '~> 1.0'
+  pod 'Expecta+Snapshots', '~> 2.0'
+  pod 'FBSnapshotTestCase/Core', '~> 2.0'
+  
+  #  link_with 'ColorMapViewSimulatorTests'
 end
 
-target "ColorMapViewSimulatorTests" do
-    pod 'Specta', '~> 0.2.1'
-    pod 'Expecta', '~> 0.3.1'
-    pod 'Expecta+Snapshots', '~> 1.2.1'
-    pod 'FBSnapshotTestCase', '~> 1.1'
-end
-
-post_install do |installer|
-    installer.project.targets.each do |target|
-        target.build_configurations.each do |config|
-            config.build_settings['FRAMEWORK_SEARCH_PATHS'] = [ '$(PLATFORM_DIR)/Developer/Library/Frameworks' ]
-        end
-    end
+target :ColorMapViewSimulatorTests do
+  pod 'Specta', '~> 1.0'
+  pod 'Expecta', '~> 1.0'
+  pod 'Expecta+Snapshots', '~> 2.0'
+  pod 'FBSnapshotTestCase/Core', '~> 2.0'
 end
